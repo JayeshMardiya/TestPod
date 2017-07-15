@@ -12,6 +12,7 @@
 		4445F9231F19D4DA00A2EA46 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4445F9211F19D4DA00A2EA46 /* Main.storyboard */; };
 		4445F9251F19D4DA00A2EA46 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4445F9241F19D4DA00A2EA46 /* Assets.xcassets */; };
 		4445F9281F19D4DA00A2EA46 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4445F9261F19D4DA00A2EA46 /* LaunchScreen.storyboard */; };
+		4445F9301F19D51900A2EA46 /* TestView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4445F92F1F19D51900A2EA46 /* TestView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		4445F9241F19D4DA00A2EA46 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4445F9271F19D4DA00A2EA46 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4445F9291F19D4DA00A2EA46 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4445F92F1F19D51900A2EA46 /* TestView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TestView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				4445F91D1F19D4DA00A2EA46 /* AppDelegate.swift */,
 				4445F91F1F19D4DA00A2EA46 /* ViewController.swift */,
+				4445F92F1F19D51900A2EA46 /* TestView.swift */,
 				4445F9211F19D4DA00A2EA46 /* Main.storyboard */,
 				4445F9241F19D4DA00A2EA46 /* Assets.xcassets */,
 				4445F9261F19D4DA00A2EA46 /* LaunchScreen.storyboard */,
@@ -96,8 +99,8 @@
 				TargetAttributes = {
 					4445F9191F19D4DA00A2EA46 = {
 						CreatedOnToolsVersion = 8.3.1;
-						DevelopmentTeam = Y88ZRHHDN8;
-						ProvisioningStyle = Automatic;
+						DevelopmentTeam = GNGQYNCT7A;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4445F9301F19D51900A2EA46 /* TestView.swift in Sources */,
 				4445F9201F19D4DA00A2EA46 /* ViewController.swift in Sources */,
 				4445F91E1F19D4DA00A2EA46 /* AppDelegate.swift in Sources */,
 			);
@@ -263,11 +267,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y88ZRHHDN8;
+				DEVELOPMENT_TEAM = GNGQYNCT7A;
 				INFOPLIST_FILE = TestPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grantsource.TestPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fb73d8cb-3f79-436b-b2b5-4bae26cf8377";
+				PROVISIONING_PROFILE_SPECIFIER = GrantSource_WildCard;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -276,11 +282,13 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = Y88ZRHHDN8;
+				DEVELOPMENT_TEAM = GNGQYNCT7A;
 				INFOPLIST_FILE = TestPod/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.grantsource.TestPod;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "fb73d8cb-3f79-436b-b2b5-4bae26cf8377";
+				PROVISIONING_PROFILE_SPECIFIER = GrantSource_WildCard;
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
